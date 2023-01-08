@@ -1,0 +1,15 @@
+server:
+  address: localhost
+  port: 80
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher # swagger 버전 오류 방지
+
+logging:
+  level:
+    org:
+      hibernate: debug
+
+
